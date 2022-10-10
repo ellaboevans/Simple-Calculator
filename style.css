@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+
+}
+
+
+
+#calculator {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(72, 81, 90);
+  padding: 1rem 1.5rem;
+  /* width: 25vw; */
+  border-radius: 15px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 1rem;
+}
+
+.input-container input {
+  background-color: #fff;
+  color: black;
+  font-size: 35px;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin: 1rem;
+  width: 20vw;
+  height: 10vh;
+}
+
+#calculator .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  padding: 0.5rem 1rem;
+  /* margin-bottom: 1rem; */
+}
+
+.row .bg-red {
+  background-color: rgb(184, 1, 1);
+}
+
+.row button {
+  font-size: 20px;
+  border-radius: 0px;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  border: none;
+  color: white;
+  background: rgba(127, 204, 255, 0.39);
+  margin: 0 0.3rem;
+}
+
+.row .btn {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+    }
+    
+
+
+  #calculator {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(72, 81, 90);
+    /* padding: 1rem 1.5rem; */
+    width: 60vw;
+    border-radius: 15px;
+  }
+
+  .input-container input {
+    
+    width: 40vw;
+    
+}
+
+}

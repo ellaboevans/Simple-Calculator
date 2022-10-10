@@ -13,14 +13,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: orange;
+  background-image: url(./images/pexels-jorge-jesus-614117.jpg);
+  background-size: cover;
 }
 
 #calculator {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(72, 81, 90);
+  background-color: rgba(0, 71, 4, 0.712);
+  outline: 1px solid springgreen;
   padding: 1rem 1.5rem;
   border-radius: 15px;
 }
@@ -28,11 +30,13 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
+  
+
 }
 
 .input-container input {
-  background-color: #fff;
-  color: rgb(70, 70, 70);
+  background-color: rgba(87, 177, 46, 0.63);
+  color: orange;
   font-size: 35px;
   outline: none;
   border: none;
@@ -57,6 +61,12 @@ body {
   background-color: rgb(184, 1, 1);
 }
 
+.row .bg-red:hover{
+  background-color: orange;
+  transition: 0.3s ease all;
+
+}
+
 .row button {
   border-radius: 0px;
   padding: 1rem;
@@ -68,9 +78,33 @@ body {
   margin: 0 0.3rem;
 }
 
+button:hover{
+  background: rgb(0, 155, 77);
+  transition: 0.3s ease all;
+}
+
 .row .btn {
   cursor: pointer;
 }
+
+
+.footer{
+  color: white;
+  margin-top: 1.5rem;
+}
+
+a{
+  color: orange;
+  text-transform: uppercase;
+}
+
+a:hover{
+  color: springgreen;
+  transition: 0.3s ease all;
+
+}
+
+
 
 @media (max-width: 600px) {
   body {

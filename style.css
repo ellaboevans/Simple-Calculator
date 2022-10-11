@@ -22,7 +22,6 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: rgba(0, 71, 4, 0.712);
-  outline: 1px solid springgreen;
   padding: 1rem 1.5rem;
   border-radius: 15px;
 }
@@ -120,9 +119,5 @@ a:hover{
     height: 15vw;
   }
 
-  #calculator{
-    outline: 1px solid springgreen;
-
-
-  }
+  
 }
